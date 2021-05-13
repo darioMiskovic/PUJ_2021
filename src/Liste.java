@@ -28,13 +28,13 @@ public class Liste {
         }
 
 
-        //Nastavnik.spasi(new Nastavnik("dario","miskovic","123222223"));
+       // Nastavnik.spasi(new Nastavnik("john","doe","123222223"));
 
 
         List<Nastavnik> nastavnici = Nastavnik.dohvatiNastavnike();
 
         for (Nastavnik nastavnik: nastavnici) {
-            if(nastavnik.getIme().equals("dario")){
+            if(nastavnik.getIme().equals("john")){
                 Nastavnik.brisi(nastavnik);
             }
 
